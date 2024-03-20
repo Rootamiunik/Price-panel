@@ -11,15 +11,26 @@ body {
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
+
+
+
 li {
     list-style-type: none;
+    border-top: 1px solid #e1f1ff;
+    border-bottom: 1px solid #e1f1ff;
+
 }
 ul {
+    color: #016ff9;
+    font-size: smaller;
     padding: 0;
-    margin: 0;
+    font-weight: 600;
+}
+
+img {
+    width: 10em;
 }
 .panel-pricing-table {
-    width: 50%;
     display: flex;
     align-items: center;
     border-radius: 18px 18px 18px 18px;
@@ -28,29 +39,30 @@ ul {
     border: 1px solid black;
     background-color: white;
     padding: 1em;
+    text-transform: uppercase;
    
 }
 
 .pricing-plan {
-    background-color: aliceblue;
+    width: 300px;
     text-align: center;
-    padding: 3em 0 3em 0;
+    padding: 25px 50px;
     box-sizing: border-box;
     border-right: 1px solid #ccc;
     line-height: 3em;
-    
-    
 }
 
-a {
-    display: flex;
-    justify-content: center;
+.pricing-plan:nth-child(3) {
+       border: none; 
 }
 
-img {
-    width: 50%;
+.pricing-header {
+    font-size: 15px;
+    color: #888;
+    padding: 0;
+    font-weight: 600;
 }
 
-h2 {
-    margin-top: 0;
-}
+
+
+
